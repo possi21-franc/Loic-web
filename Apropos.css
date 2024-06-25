@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(215, 223, 223 );
+
+}
+
+/*configuration de la section nos valeurs*/
+
+.valeur{
+    padding: 10px;
+    margin-top: 15px;
+}
+.valeur h2{
+    text-align: center;
+    color: red;
+}
+.valeur p{
+    text-align: justify;
+}
+/*configuration des images des cartes*/
+
+.info{
+    width: 100%;
+    padding: auto;
+    margin: auto;
+    display: flex;
+    
+
+}

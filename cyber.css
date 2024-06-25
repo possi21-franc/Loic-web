@@ -1,0 +1,48 @@
+/*style qui s'applique a toute la page*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*configuration du body*/
+body{
+    justify-content: center;
+    align-items: center;
+    background-image: url(Images/neon-5502633_640\(3\)2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+/*configuration du section-header*/
+.image{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    padding: auto;
+}
+
+.text1{
+    text-align: justify;
+}
+.text{
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+    background-color: black;
+    border: solid white 1px;
+}
+
+   /*configuration des cartes*/
+.img-fluid{
+    border: 3px solid #fff;
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+}
+.row{
+    margin:auto;
+    
+    
+}

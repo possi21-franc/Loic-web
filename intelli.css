@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*configuration du body*/
+
+body{
+    background-color: rgb(215, 223, 223 );
+}
+
+/*configuration du titre*/
+
+.def h2{
+    font-weight: bold;
+text-align: center;
+}
+.def p{
+    text-align: center;
+    font-size: 18px;
+}
+/*configuration du corps*/
+
+
+.body img{
+    width: 80%;
+    margin: 15px auto;
+    padding: auto;
+  display: flex;
+  
+}
+.text-box h2{
+    color: red;
+    text-align: center;
+
+}
+
+.text-box p{
+    text-align: justify;
+    padding: 10px;
+}
+
+/*configuration des domaines*/
+
+.domaines h3{
+    text-align: center;
+    font-weight: bold;
+}
+.domaines p1{
+    text-align: justify;
+    padding: 5px;
+}
+.img-fluid{
+    width: 400px;
+    height: 300px;
+}

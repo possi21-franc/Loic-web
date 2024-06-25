@@ -1,0 +1,36 @@
+/*configuration du formulaire*/
+
+body{
+    background-color: rgb(215, 223, 223 );
+}
+
+#contact form{
+    width: 100%;
+    padding: 30px;
+    border: 1px solid#f1f1f1f1;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2),0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+/*configuration des input*/
+ #contact input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+}
+#contact input[type=submit]{
+    background-color:red ;
+    color: white;
+    padding: 14px 20px;
+    margin: 5px 0px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+#contact input[type=submit]:hover{
+    background-color: black;
+    color: #53af57;
+    border: 2px solid#53af57;
+}
